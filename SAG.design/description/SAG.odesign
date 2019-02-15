@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="SAG" version="12.0.0.2017041100">
+  <ownedViewpoints name="SAGelements">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="SAG diagram" domainClass="SAGmodel" enablePopupBars="true">
+      <defaultLayer name="Default">
+        <nodeMappings name="Actor" labelDirectEdit="//@ownedViewpoints[name='SAGelements']/@ownedRepresentations[name='SAG%20diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" semanticCandidatesExpression="feature:actors" domainClass="SAG::Actor">
+          <style xsi:type="style:EllipseNodeDescription" labelSize="10" showIcon="false" labelPosition="node" resizeKind="NSEW" horizontalDiameterComputationExpression="5" verticalDiameterComputationExpression="5">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="ActorMy_Goal" label="Create new Actor_MyGoal" deletionDescription="//@ownedViewpoints[name='SAGelements']/@ownedRepresentations[name='SAG%20diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='My_goalEdgeDelete']" synchronizationLock="true" sourceMapping="//@ownedViewpoints[name='SAGelements']/@ownedRepresentations[name='SAG%20diagram']/@defaultLayer/@nodeMappings[name='Actor']" targetMapping="//@ownedViewpoints[name='SAGelements']/@ownedRepresentations[name='SAG%20diagram']/@defaultLayer/@containerMappings[name='Goal']" targetFinderExpression="feature:my_goal">
+          <style sizeComputationExpression="2" endsCentering="Both">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="GoalDependee" label="Create new GoalDependee" deletionDescription="//@ownedViewpoints[name='SAGelements']/@ownedRepresentations[name='SAG%20diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='GoalDependeeEdgeDelete']" synchronizationLock="true" sourceMapping="//@ownedViewpoints[name='SAGelements']/@ownedRepresentations[name='SAG%20diagram']/@defaultLayer/@containerMappings[name='Goal']" targetMapping="//@ownedViewpoints[name='SAGelements']/@ownedRepresentations[name='SAG%20diagram']/@defaultLayer/@nodeMappings[name='Actor']" targetFinderExpression="feature:dependee">
+          <style sizeComputationExpression="2" endsCentering="Both">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="Goal" labelDirectEdit="//@ownedViewpoints[name='SAGelements']/@ownedRepresentations[name='SAG%20diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" semanticCandidatesExpression="feature:goals" domainClass="SAG::Goal">
+          <style xsi:type="style:FlatContainerStyleDescription" arcWidth="20" arcHeight="20" borderSizeComputationExpression="1" labelSize="10" showIcon="false" roundedCorner="true" widthComputationExpression="10" heightComputationExpression="3">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_yellow']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="Actors and Goals">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Actor" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='SAGelements']/@ownedRepresentations[name='SAG%20diagram']/@defaultLayer/@nodeMappings[name='Actor']" iconPath="/SAG.design/description/icons/obj16/Role.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="SAG::Actor" referenceName="actors"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Goal" containerMappings="//@ownedViewpoints[name='SAGelements']/@ownedRepresentations[name='SAG%20diagram']/@defaultLayer/@containerMappings[name='Goal']" iconPath="/SAG.design/description/icons/obj16/Goal.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="SAG::Goal" referenceName="goals"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="editName" forceRefresh="true">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="Connections ">
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="GoalDependee" forceRefresh="true" edgeMappings="//@ownedViewpoints[name='SAGelements']/@ownedRepresentations[name='SAG%20diagram']/@defaultLayer/@edgeMappings[name='GoalDependee']" iconPath="/SAG.design/description/icons/obj16/Edge.gif">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="dependee" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Actor My_Goal" edgeMappings="//@ownedViewpoints[name='SAGelements']/@ownedRepresentations[name='SAG%20diagram']/@defaultLayer/@edgeMappings[name='ActorMy_Goal']" iconPath="/SAG.design/description/icons/obj16/Edge.gif">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="my_goal" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="My_goalEdgeDelete">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:element">
+                <subModelOperations xsi:type="tool_1:Unset" featureName="my_goal" elementExpression="[elementView.oclAsType(DEdge).targetNode.oclAsType(DSemanticDecorator).target/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="GoalDependeeEdgeDelete">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:element">
+                <subModelOperations xsi:type="tool_1:Unset" featureName="dependee" elementExpression="[elementView.oclAsType(DEdge).targetNode.oclAsType(DSemanticDecorator).target/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="my.SAG.design.Services"/>
+  </ownedViewpoints>
+</description:Group>
