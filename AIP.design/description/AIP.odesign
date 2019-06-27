@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="AIP" version="12.0.0.2017041100">
+  <ownedViewpoints name="AIPelements">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="AIP Diagram Description" domainClass="AIP::AIPmodel" enablePopupBars="true">
+      <defaultLayer name="Default">
+        <containerMappings name="Protocol" labelDirectEdit="//@ownedViewpoints[name='AIPelements']/@ownedRepresentations[name='AIP%20Diagram%20Description']/@defaultLayer/@toolSections.0/@ownedTools[name='editProtocolName']" semanticCandidatesExpression="feature:protocols" synchronizationLock="true" domainClass="AIP::Protocol" childrenPresentation="HorizontalStack">
+          <subContainerMappings name="Participant" labelDirectEdit="//@ownedViewpoints[name='AIPelements']/@ownedRepresentations[name='AIP%20Diagram%20Description']/@defaultLayer/@toolSections.0/@ownedTools[name='editParticipantName']" semanticCandidatesExpression="feature:participants" synchronizationLock="true" domainClass="AIP::Participant" childrenPresentation="List">
+            <subNodeMappings name="Participant1" labelDirectEdit="//@ownedViewpoints[name='AIPelements']/@ownedRepresentations[name='AIP%20Diagram%20Description']/@defaultLayer/@toolSections.0/@ownedTools[name='editParticipantName']" semanticCandidatesExpression="var:self" domainClass="AIP::Participant">
+              <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="[self.engaging_rules/]" iconPath="/AIP.design/description/icons/obj16/warning.png" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" width="5" height="5">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              </style>
+            </subNodeMappings>
+            <subNodeMappings name="Participant2" labelDirectEdit="//@ownedViewpoints[name='AIPelements']/@ownedRepresentations[name='AIP%20Diagram%20Description']/@defaultLayer/@toolSections.0/@ownedTools[name='editParticipantName']" semanticCandidatesExpression="var:self" domainClass="AIP::Participant">
+              <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="feature:outcomes" iconPath="/AIP.design/description/icons/obj16/crosshair.png" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              </style>
+            </subNodeMappings>
+            <subNodeMappings name="Participant3" labelDirectEdit="//@ownedViewpoints[name='AIPelements']/@ownedRepresentations[name='AIP%20Diagram%20Description']/@defaultLayer/@toolSections.0/@ownedTools[name='editParticipantName']" semanticCandidatesExpression="var:self" domainClass="AIP::Participant">
+              <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="feature:liveness" iconPath="/AIP.design/description/icons/obj16/rate.png" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+              </style>
+            </subNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" arcWidth="20" arcHeight="20" borderSizeComputationExpression="1" labelSize="12" iconPath="/AIP.design/description/icons/obj16/users-group.png" roundedCorner="true">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_blue']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="10" iconPath="/AIP.design/description/icons/obj16/scroll.png" roundedCorner="true" backgroundStyle="GradientTopToBottom">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_yellow']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="Create Protocol and Participant">
+          <ownedTools xsi:type="tool:DirectEditLabel" name="editProtocolName" forceRefresh="true">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Protocol" forceRefresh="true" containerMappings="//@ownedViewpoints[name='AIPelements']/@ownedRepresentations[name='AIP%20Diagram%20Description']/@defaultLayer/@containerMappings[name='Protocol']" iconPath="/AIP.design/description/icons/obj16/scroll.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="AIP::Protocol" referenceName="protocols"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Participant" forceRefresh="true" containerMappings="//@ownedViewpoints[name='AIPelements']/@ownedRepresentations[name='AIP%20Diagram%20Description']/@defaultLayer/@containerMappings[name='Protocol']/@subContainerMappings[name='Participant']" iconPath="/AIP.design/description/icons/obj16/users-group.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="feature:eContainer">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="AIP::Participant" referenceName="participants">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="participants" valueExpression="var:instance"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="editParticipantName" forceRefresh="true">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="my.project.AIP.design.Services"/>
+  </ownedViewpoints>
+</description:Group>
