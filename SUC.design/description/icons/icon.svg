@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <symbol id="svg_1" viewBox="0 0 1000 1000" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+   <metadata>Svg Vector Icons : http://www.onlinewebfonts.com/icon</metadata>
+   <g>
+    <path d="m495.5,328c-87.7,0 -159,-71.3 -159,-159c0,-87.7 71.3,-159 159,-159c87.7,0 159,71.3 159,159c0,87.7 -71.4,159 -159,159zm0,-293.5c-74.2,0 -134.5,60.3 -134.5,134.5s60.3,134.5 134.5,134.5c74.2,0 134.5,-60.3 134.5,-134.5s-60.4,-134.5 -134.5,-134.5z"/>
+    <path d="m144.6,504.6l710.8,0l0,24.5l-710.8,0l0,-24.5z"/>
+    <path d="m486,309.2l24.5,0l0,432.1l-24.5,0l0,-432.1z"/>
+    <path d="m282.2,990l226.7,-237.4l-17.7,-18.1l-242.9,254.3l33.9,1.2z"/>
+    <path d="m712.8,988.8l-226.7,-237.4l17.7,-16.9l242.9,254.3l-33.9,0z"/>
+   </g>
+  </symbol>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <use id="svg_2" transform="matrix(0.0838867 0 0 0.0939927 9.168 -5.9109)" x="246.62116" xlink:href="#svg_1" y="571.881435"/>
+  <g id="svg_3"/>
+ </g>
+</svg>

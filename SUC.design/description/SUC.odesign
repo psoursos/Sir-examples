@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="SUC" version="12.0.0.2017041100">
+  <ownedViewpoints name="SUCelements">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="SUC Diagram" domainClass="SUCmodel" enablePopupBars="true">
+      <defaultLayer name="Default">
+        <nodeMappings name="UseCase" labelDirectEdit="//@ownedViewpoints[name='SUCelements']/@ownedRepresentations[name='SUC%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" semanticCandidatesExpression="feature:usecases" synchronizationLock="true" domainClass="SUC::UseCase">
+          <style xsi:type="style:EllipseNodeDescription" labelSize="10" showIcon="false" sizeComputationExpression="5" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Role" labelDirectEdit="//@ownedViewpoints[name='SUCelements']/@ownedRepresentations[name='SUC%20Diagram']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" semanticCandidatesExpression="feature:roles" synchronizationLock="true" domainClass="SUC::Role">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" sizeComputationExpression="5" resizeKind="NSEW" arcWidth="0" arcHeight="0" workspacePath="/SUC.design/description/icons/veACTOR.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="RoleParticipates_in" label="Create new RoleParticipates_in" deletionDescription="//@ownedViewpoints[name='SUCelements']/@ownedRepresentations[name='SUC%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='RoleParticipates_inEdgeDelete']" sourceMapping="//@ownedViewpoints[name='SUCelements']/@ownedRepresentations[name='SUC%20Diagram']/@defaultLayer/@nodeMappings[name='Role']" targetMapping="//@ownedViewpoints[name='SUCelements']/@ownedRepresentations[name='SUC%20Diagram']/@defaultLayer/@nodeMappings[name='UseCase']" targetFinderExpression="feature:participates_in">
+          <style sizeComputationExpression="2" endsCentering="Both">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="Include" label="Create new UseCaseInclude" deletionDescription="//@ownedViewpoints[name='SUCelements']/@ownedRepresentations[name='SUC%20Diagram']/@defaultLayer/@toolSections.1/@ownedTools[name='UseCaseIncludeEdgeDelete']" sourceMapping="//@ownedViewpoints[name='SUCelements']/@ownedRepresentations[name='SUC%20Diagram']/@defaultLayer/@nodeMappings[name='UseCase']" targetMapping="//@ownedViewpoints[name='SUCelements']/@ownedRepresentations[name='SUC%20Diagram']/@defaultLayer/@nodeMappings[name='UseCase']" targetFinderExpression="feature:include">
+          <style sizeComputationExpression="2" foldingStyle="SOURCE" endsCentering="Both">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription showIcon="false" labelExpression="&lt;&lt;includes>>">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections name="Roles and UseCases">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="UseCase" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='SUCelements']/@ownedRepresentations[name='SUC%20Diagram']/@defaultLayer/@nodeMappings[name='UseCase']" iconPath="/SUC.design/description/icons/obj16/UseCase.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="SUC::UseCase" referenceName="usecases"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="editName" forceRefresh="true">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Role" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='SUCelements']/@ownedRepresentations[name='SUC%20Diagram']/@defaultLayer/@nodeMappings[name='Role']" iconPath="/SUC.design/description/icons/obj16/Role.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="SUC::Role" referenceName="roles"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="Connections">
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="RoleParticipates_in" forceRefresh="true" edgeMappings="//@ownedViewpoints[name='SUCelements']/@ownedRepresentations[name='SUC%20Diagram']/@defaultLayer/@edgeMappings[name='RoleParticipates_in']" iconPath="/SUC.design/description/icons/obj16/Edge.gif">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="participates_in" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="UseCaseInclude" precondition="aql:preTarget.differs(preSource)" forceRefresh="true" edgeMappings="//@ownedViewpoints[name='SUCelements']/@ownedRepresentations[name='SUC%20Diagram']/@defaultLayer/@edgeMappings[name='Include']" iconPath="/SUC.design/description/icons/obj16/Edge.gif">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="include" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="RoleParticipates_inEdgeDelete" forceRefresh="true">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:element">
+                <subModelOperations xsi:type="tool_1:Unset" featureName="participates_in" elementExpression="[elementView.oclAsType(DEdge).targetNode.oclAsType(DSemanticDecorator).target/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="UseCaseIncludeEdgeDelete" forceRefresh="true">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:element">
+                <subModelOperations xsi:type="tool_1:Unset" featureName="include" elementExpression="[elementView.oclAsType(DEdge).targetNode.oclAsType(DSemanticDecorator).target/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="SUCmy.project.design.Services"/>
+  </ownedViewpoints>
+</description:Group>
