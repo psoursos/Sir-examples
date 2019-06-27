@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="SRM" version="12.0.0.2017041100">
+  <ownedViewpoints name="SRMelements">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="SRM" domainClass="SRM::SRMmodel" enablePopupBars="true">
+      <metamodel href="http://www.example.org/mySRM#/"/>
+      <metamodel href="http://www.amcl.tuc.gr/aseme/metamodels/SRM#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="Role" labelDirectEdit="//@ownedViewpoints[name='SRMelements']/@ownedRepresentations[name='SRM']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" semanticCandidatesExpression="feature:roles" synchronizationLock="true" domainClass="SRM::Role">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" sizeComputationExpression="5" resizeKind="NSEW" arcWidth="0" arcHeight="0" workspacePath="/SRM.design/description/icons/vRole.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Capability" labelDirectEdit="//@ownedViewpoints[name='SRMelements']/@ownedRepresentations[name='SRM']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" semanticCandidatesExpression="feature:capabilities" domainClass="SRM::Capability">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="5" resizeKind="NSEW" arcWidth="0" arcHeight="0" workspacePath="/SRM.design/description/icons/vCapability.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Activity" labelDirectEdit="//@ownedViewpoints[name='SRMelements']/@ownedRepresentations[name='SRM']/@defaultLayer/@toolSections.0/@ownedTools[name='editName']" semanticCandidatesExpression="feature:activities" domainClass="SRM::Activity">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" sizeComputationExpression="5" resizeKind="NSEW" arcWidth="0" arcHeight="0" workspacePath="/SRM.design/description/icons/vActivity.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Functionality" labelDirectEdit="//@ownedViewpoints[name='SRMelements']/@ownedRepresentations[name='SRM']/@defaultLayer/@toolSections.0/@ownedTools[name='editFunctinality']" semanticCandidatesExpression="feature:functionalities" domainClass="SRM::Functionality">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="10" showIcon="false" labelExpression="feature:description" sizeComputationExpression="5" resizeKind="NSEW" arcWidth="0" arcHeight="0" workspacePath="/SRM.design/description/icons/vFunctionality.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="RoleCapabilities" deletionDescription="//@ownedViewpoints[name='SRMelements']/@ownedRepresentations[name='SRM']/@defaultLayer/@toolSections.1/@ownedTools[name='RoleCapabilitiesEdgeDelete']" sourceMapping="//@ownedViewpoints[name='SRMelements']/@ownedRepresentations[name='SRM']/@defaultLayer/@nodeMappings[name='Role']" targetMapping="//@ownedViewpoints[name='SRMelements']/@ownedRepresentations[name='SRM']/@defaultLayer/@nodeMappings[name='Capability']" targetFinderExpression="feature:capabilities">
+          <style sizeComputationExpression="2" endsCentering="Both">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="RoleActivities" deletionDescription="//@ownedViewpoints[name='SRMelements']/@ownedRepresentations[name='SRM']/@defaultLayer/@toolSections.1/@ownedTools[name='RoleActivittiesEdgeDelete']" sourceMapping="//@ownedViewpoints[name='SRMelements']/@ownedRepresentations[name='SRM']/@defaultLayer/@nodeMappings[name='Role']" targetMapping="//@ownedViewpoints[name='SRMelements']/@ownedRepresentations[name='SRM']/@defaultLayer/@nodeMappings[name='Activity']" targetFinderExpression="feature:role_activities">
+          <style sizeComputationExpression="2" endsCentering="Both">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="CapabilityActivities" deletionDescription="//@ownedViewpoints[name='SRMelements']/@ownedRepresentations[name='SRM']/@defaultLayer/@toolSections.1/@ownedTools[name='CapabilitiyActivitiesEdgeDelete']" sourceMapping="//@ownedViewpoints[name='SRMelements']/@ownedRepresentations[name='SRM']/@defaultLayer/@nodeMappings[name='Capability']" targetMapping="//@ownedViewpoints[name='SRMelements']/@ownedRepresentations[name='SRM']/@defaultLayer/@nodeMappings[name='Activity']" targetFinderExpression="feature:capability_activities">
+          <style sizeComputationExpression="2" endsCentering="Both">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="FunctionalityActivities" deletionDescription="//@ownedViewpoints[name='SRMelements']/@ownedRepresentations[name='SRM']/@defaultLayer/@toolSections.1/@ownedTools[name='FunctionalityActivitiesEdgeDelete']" sourceMapping="//@ownedViewpoints[name='SRMelements']/@ownedRepresentations[name='SRM']/@defaultLayer/@nodeMappings[name='Functionality']" targetMapping="//@ownedViewpoints[name='SRMelements']/@ownedRepresentations[name='SRM']/@defaultLayer/@nodeMappings[name='Activity']" targetFinderExpression="feature:activities">
+          <style sizeComputationExpression="2" endsCentering="Both">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections name="Entities">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Role" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='SRMelements']/@ownedRepresentations[name='SRM']/@defaultLayer/@nodeMappings[name='Role']" iconPath="/SRM.design/description/icons/obj16/Role.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="mySRM::Role" referenceName="roles"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Capability" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='SRMelements']/@ownedRepresentations[name='SRM']/@defaultLayer/@nodeMappings[name='Capability']" iconPath="/SRM.design/description/icons/obj16/Capability.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="mySRM::Capability" referenceName="capabilities"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Activity" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='SRMelements']/@ownedRepresentations[name='SRM']/@defaultLayer/@nodeMappings[name='Activity']" iconPath="/SRM.design/description/icons/obj16/Activity.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="mySRM::Activity" referenceName="activities"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Functionality" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='SRMelements']/@ownedRepresentations[name='SRM']/@defaultLayer/@nodeMappings[name='Functionality']" iconPath="/SRM.design/description/icons/obj16/Functionality.gif">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="mySRM::Functionality" referenceName="functionalities"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="editName" forceRefresh="true">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="editFunctinality" forceRefresh="true">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="description" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="Connections">
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="RoleCapabilities" edgeMappings="//@ownedViewpoints[name='SRMelements']/@ownedRepresentations[name='SRM']/@defaultLayer/@edgeMappings[name='RoleCapabilities']" iconPath="/SRM.design/description/icons/obj16/Edge.gif">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="capabilities" valueExpression="var:target">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="liveness" valueExpression="aql:self.liveness+'\n'+target.description.toString()"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="RoleActivities" forceRefresh="true" edgeMappings="//@ownedViewpoints[name='SRMelements']/@ownedRepresentations[name='SRM']/@defaultLayer/@edgeMappings[name='RoleActivities']" iconPath="/SRM.design/description/icons/obj16/Edge.gif">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="role_activities" valueExpression="var:target"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="CapabilityActivities" forceRefresh="true" edgeMappings="//@ownedViewpoints[name='SRMelements']/@ownedRepresentations[name='SRM']/@defaultLayer/@edgeMappings[name='CapabilityActivities']" iconPath="/SRM.design/description/icons/obj16/Edge.gif">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="capability_activities" valueExpression="var:target"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="FunctionalityActivities" forceRefresh="true" edgeMappings="//@ownedViewpoints[name='SRMelements']/@ownedRepresentations[name='SRM']/@defaultLayer/@edgeMappings[name='FunctionalityActivities']" iconPath="/SRM.design/description/icons/obj16/Edge.gif">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="activities" valueExpression="var:target"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="RoleCapabilitiesEdgeDelete" forceRefresh="true">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:element">
+                <subModelOperations xsi:type="tool_1:Unset" featureName="capabilities" elementExpression="[elementView.oclAsType(DEdge).targetNode.oclAsType(DSemanticDecorator).target/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="RoleActivittiesEdgeDelete" forceRefresh="true">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:element">
+                <subModelOperations xsi:type="tool_1:Unset" featureName="role_activities" elementExpression="[elementView.oclAsType(DEdge).targetNode.oclAsType(DSemanticDecorator).target/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="CapabilitiyActivitiesEdgeDelete" forceRefresh="true">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:element">
+                <subModelOperations xsi:type="tool_1:Unset" featureName="capability_activities" elementExpression="[elementView.oclAsType(DEdge).targetNode.oclAsType(DSemanticDecorator).target/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="FunctionalityActivitiesEdgeDelete" forceRefresh="true">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:element">
+                <subModelOperations xsi:type="tool_1:Unset" featureName="activities" elementExpression="[elementView.oclAsType(DEdge).targetNode.oclAsType(DSemanticDecorator).target/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="SRM.design.Services"/>
+  </ownedViewpoints>
+</description:Group>
