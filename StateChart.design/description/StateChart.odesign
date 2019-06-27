@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="StateChart" version="12.0.0.2017041100">
+  <ownedViewpoints name="StateChartelements">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="StateChart" domainClass="stateChart::Model" enablePopupBars="true">
+      <layout xsi:type="description_1:CompositeLayout"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="Variable" labelDirectEdit="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@toolSections.0/@ownedTools[name='Direct%20Edit%20Label%20Group']/@tools.0" semanticCandidatesExpression="feature:variables" synchronizationLock="true" domainClass="stateChart::Variable"/>
+        <edgeMappings name="Transiton" sourceMapping="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='Basic'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='Condition'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='History'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='Start'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='End'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='Shallow_History']" targetMapping="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='Basic'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='Condition'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='End'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='History'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='Shallow_History'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']" targetFinderExpression="feature:target" sourceFinderExpression="feature:source" domainClass="stateChart::Transition" useDomainElement="true">
+          <style targetArrow="InputFillClosedArrow" endsCentering="Both">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription labelSize="12" labelExpression="feature:TE">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="trans" sourceMapping="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='Basic'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='Condition'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='History'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='Start'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='End'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='Shallow_History']" targetMapping="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='History'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='End'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='Condition'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='Basic'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='Shallow_History']" targetFinderExpression="feature:target" sourceFinderExpression="feature:source" domainClass="stateChart::Transition" useDomainElement="true">
+          <style endsCentering="Both">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="OR" labelDirectEdit="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@toolSections.0/@ownedTools[name='Direct%20Edit%20Label%20Group']/@tools.0" semanticCandidatesExpression="feature:nodes" createElements="false" domainClass="stateChart::Node" reusedContainerMappings="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR']">
+          <subNodeMappings name="Start" semanticCandidatesExpression="feature:Children" createElements="false" domainClass="stateChart::Node">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="2" labelPosition="node" resizeKind="NSEW" workspacePath="/StateChart.design/description/icons/vCircle.svg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="End" semanticCandidatesExpression="feature:Children" createElements="false" domainClass="stateChart::Node">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="2" labelPosition="node" resizeKind="NSEW" workspacePath="/StateChart.design/description/icons/vEnd.svg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="Condition" semanticCandidatesExpression="feature:Children" createElements="false" domainClass="stateChart::Node">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="2" labelPosition="node" resizeKind="NSEW" workspacePath="/StateChart.design/description/icons/vCondition.svg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="History" semanticCandidatesExpression="feature:Children" createElements="false" domainClass="stateChart::Node">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="2" labelPosition="node" resizeKind="NSEW" workspacePath="/StateChart.design/description/icons/vhistory.svg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="Shallow_History" semanticCandidatesExpression="feature:Children" createElements="false" domainClass="stateChart::Node">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" sizeComputationExpression="2" labelPosition="node" resizeKind="NSEW" workspacePath="/StateChart.design/description/icons/vshistory.svg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subContainerMappings name="Basic" semanticCandidatesExpression="feature:Children" createElements="false" domainClass="stateChart::Node">
+            <style xsi:type="style:FlatContainerStyleDescription" arcWidth="20" arcHeight="20" borderSizeComputationExpression="1" labelSize="12" showIcon="false" labelAlignment="LEFT" roundedCorner="true">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_green']"/>
+              <labelBorderStyle href="environment:/viewpoint#//@labelBorderStyles/@labelBorderStyleDescriptions.1"/>
+            </style>
+          </subContainerMappings>
+          <subContainerMappings xsi:type="description_1:ContainerMappingImport" name="OR" labelDirectEdit="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@toolSections.0/@ownedTools[name='Direct%20Edit%20Label%20Group']/@tools.0" semanticCandidatesExpression="feature:Children" createElements="false" domainClass="stateChart::Node" reusedNodeMappings="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='Condition'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='End'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='History'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='Shallow_History'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='Start']" reusedContainerMappings="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='Basic']">
+            <subContainerMappings name="AND" labelDirectEdit="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@toolSections.0/@ownedTools[name='Direct%20Edit%20Label%20Group']/@tools.0" semanticCandidatesExpression="feature:Children" createElements="false" domainClass="stateChart::Node" childrenPresentation="HorizontalStack">
+              <subContainerMappings name="OR" labelDirectEdit="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@toolSections.0/@ownedTools[name='Direct%20Edit%20Label%20Group']/@tools.0" semanticCandidatesExpression="feature:Children" createElements="false" domainClass="stateChart::Node" reusedNodeMappings="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='Condition'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='End'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='History'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='Shallow_History'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='Start']" reusedContainerMappings="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='Basic'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']">
+                <subContainerMappings name="AND" labelDirectEdit="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@toolSections.0/@ownedTools[name='Direct%20Edit%20Label%20Group']/@tools.0" semanticCandidatesExpression="feature:Children" createElements="false" domainClass="stateChart::Node" reusedContainerMappings="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='Basic'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR']" childrenPresentation="HorizontalStack">
+                  <style xsi:type="style:FlatContainerStyleDescription" arcWidth="20" arcHeight="20" borderSizeComputationExpression="1" labelSize="12" showIcon="false" roundedCorner="true" backgroundColor="//@userColorsPalettes[name=null]/@entries[name='very_light_blue']">
+                    <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                    <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                    <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+                  </style>
+                </subContainerMappings>
+                <style xsi:type="style:FlatContainerStyleDescription" arcWidth="20" arcHeight="20" borderSizeComputationExpression="1" labelSize="12" showIcon="false" labelAlignment="LEFT" roundedCorner="true" foregroundColor="//@userColorsPalettes[name=null]/@entries[name='very_light_gray']">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                  <labelBorderStyle href="environment:/viewpoint#//@labelBorderStyles/@labelBorderStyleDescriptions.1"/>
+                </style>
+                <conditionnalStyles predicateExpression="aql:self.Father.type.toUpper()='AND'">
+                  <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" borderLineStyle="dot" labelSize="12" showIcon="false" labelAlignment="LEFT" foregroundColor="//@userColorsPalettes[name=null]/@entries[name='very_light_gray']">
+                    <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                    <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                    <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                  </style>
+                </conditionnalStyles>
+              </subContainerMappings>
+              <style xsi:type="style:FlatContainerStyleDescription" arcWidth="20" arcHeight="20" borderSizeComputationExpression="1" labelSize="12" showIcon="false" roundedCorner="true" backgroundColor="//@userColorsPalettes[name=null]/@entries[name='very_light_blue']">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              </style>
+            </subContainerMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" arcWidth="20" arcHeight="20" borderSizeComputationExpression="1" labelSize="12" showIcon="false" labelAlignment="LEFT" roundedCorner="true" foregroundColor="//@userColorsPalettes[name=null]/@entries[name='very_light_gray']">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <labelBorderStyle href="environment:/viewpoint#//@labelBorderStyles/@labelBorderStyleDescriptions.1"/>
+            </style>
+            <conditionnalStyles predicateExpression="aql:self.Father.type.toUpper()='AND'">
+              <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" borderLineStyle="dot" labelSize="12" showIcon="false" labelAlignment="LEFT" foregroundColor="//@userColorsPalettes[name=null]/@entries[name='very_light_gray']">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              </style>
+            </conditionnalStyles>
+          </subContainerMappings>
+          <subContainerMappings name="AND" labelDirectEdit="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@toolSections.0/@ownedTools[name='Direct%20Edit%20Label%20Group']/@tools.0" semanticCandidatesExpression="feature:Children" createElements="false" domainClass="stateChart::Node" childrenPresentation="HorizontalStack">
+            <subContainerMappings xsi:type="description_1:ContainerMappingImport" name="OR" labelDirectEdit="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@toolSections.0/@ownedTools[name='Direct%20Edit%20Label%20Group']/@tools.0" semanticCandidatesExpression="feature:Children" createElements="false" domainClass="stateChart::Node" reusedNodeMappings="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='Condition'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='End'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='History'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='Shallow_History'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='Start']" reusedContainerMappings="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']">
+              <subContainerMappings xsi:type="description_1:ContainerMappingImport" name="AND" labelDirectEdit="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@toolSections.0/@ownedTools[name='Direct%20Edit%20Label%20Group']/@tools.0" semanticCandidatesExpression="feature:Children" createElements="false" domainClass="stateChart::Node" reusedContainerMappings="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND']" childrenPresentation="HorizontalStack">
+                <subContainerMappings name="OR" labelDirectEdit="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@toolSections.0/@ownedTools[name='Direct%20Edit%20Label%20Group']/@tools.0" semanticCandidatesExpression="feature:Children" createElements="false" domainClass="stateChart::Node" reusedNodeMappings="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='Condition'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='End'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='History'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='Shallow_History'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='Start']" reusedContainerMappings="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']">
+                  <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" showIcon="false" foregroundColor="//@userColorsPalettes[name=null]/@entries[name='very_light_gray']">
+                    <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                    <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                    <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                  </style>
+                  <conditionnalStyles predicateExpression="aql:self.Father.type.toUpper()='AND'">
+                    <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" borderLineStyle="dot" labelSize="12" showIcon="false" foregroundColor="//@userColorsPalettes[name=null]/@entries[name='very_light_gray']">
+                      <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                      <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                      <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                    </style>
+                  </conditionnalStyles>
+                </subContainerMappings>
+                <style xsi:type="style:FlatContainerStyleDescription" arcWidth="20" arcHeight="20" borderSizeComputationExpression="1" labelSize="12" showIcon="false" roundedCorner="true" backgroundColor="//@userColorsPalettes[name=null]/@entries[name='very_light_blue']">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                </style>
+              </subContainerMappings>
+              <style xsi:type="style:FlatContainerStyleDescription" arcWidth="20" arcHeight="20" borderSizeComputationExpression="1" labelSize="12" showIcon="false" roundedCorner="true" foregroundColor="//@userColorsPalettes[name=null]/@entries[name='very_light_gray']">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                <labelBorderStyle href="environment:/viewpoint#//@labelBorderStyles/@labelBorderStyleDescriptions.1"/>
+              </style>
+              <conditionnalStyles predicateExpression="aql:self.Father.type.toUpper()='AND'">
+                <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" borderLineStyle="dot" labelSize="12" showIcon="false" foregroundColor="//@userColorsPalettes[name=null]/@entries[name='very_light_gray']">
+                  <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                  <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+                </style>
+              </conditionnalStyles>
+            </subContainerMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" arcWidth="20" arcHeight="20" borderSizeComputationExpression="1" labelSize="12" showIcon="false" roundedCorner="true" backgroundColor="//@userColorsPalettes[name=null]/@entries[name='very_light_blue']">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" arcWidth="20" arcHeight="20" borderSizeComputationExpression="1" labelSize="12" showIcon="false" labelAlignment="LEFT" roundedCorner="true" foregroundColor="//@userColorsPalettes[name=null]/@entries[name='very_light_gray']">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <labelBorderStyle href="environment:/viewpoint#//@labelBorderStyles/@labelBorderStyleDescriptions.1"/>
+          </style>
+        </containerMappings>
+        <toolSections name="Create Nodes">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="OR" forceRefresh="true" containerMappings="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR']" iconPath="/StateChart.design/description/icons/obj16/or16.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="stateChart::Node" referenceName="nodes">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="type" valueExpression="OR">
+                      <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="feature:Children">
+                        <subModelOperations xsi:type="tool_1:CreateInstance" typeName="stateChart::Node" referenceName="Children">
+                          <subModelOperations xsi:type="tool_1:SetValue" featureName="type" valueExpression="OR"/>
+                        </subModelOperations>
+                      </subModelOperations>
+                    </subModelOperations>
+                  </subModelOperations>
+                </subModelOperations>
+                <subModelOperations xsi:type="tool_1:If" conditionExpression="aql:container">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                    <subModelOperations xsi:type="tool_1:CreateInstance" typeName="stateChart::Node" referenceName="Children">
+                      <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                        <subModelOperations xsi:type="tool_1:SetValue" featureName="type" valueExpression="OR">
+                          <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="feature:Children">
+                            <subModelOperations xsi:type="tool_1:CreateInstance" typeName="stateChart::Node" referenceName="Children">
+                              <subModelOperations xsi:type="tool_1:SetValue" featureName="type" valueExpression="OR"/>
+                            </subModelOperations>
+                          </subModelOperations>
+                        </subModelOperations>
+                      </subModelOperations>
+                    </subModelOperations>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="AND" forceRefresh="true" containerMappings="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='AND']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND'] //@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='OR']/@subContainerMappings[name='AND']" iconPath="/StateChart.design/description/icons/obj16/and16.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="stateChart::Node" referenceName="Children">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="type" valueExpression="AND">
+                      <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                        <subModelOperations xsi:type="tool_1:CreateInstance" typeName="stateChart::Node" referenceName="nodes">
+                          <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                            <subModelOperations xsi:type="tool_1:SetValue" featureName="type" valueExpression="OR"/>
+                          </subModelOperations>
+                        </subModelOperations>
+                      </subModelOperations>
+                    </subModelOperations>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="START" forceRefresh="true" inverseSelectionOrder="true" nodeMappings="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='Start']" iconPath="/StateChart.design/description/icons/obj16/circle16.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="stateChart::Node" referenceName="Children">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="type" valueExpression="START"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="END" forceRefresh="true" inverseSelectionOrder="true" nodeMappings="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='End']" iconPath="/StateChart.design/description/icons/obj16/end16.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="stateChart::Node" referenceName="Children">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="type" valueExpression="END"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Variable" nodeMappings="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@nodeMappings[name='Variable']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="stateChart::Variable" referenceName="variables">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="type" valueExpression="Variable"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Condition" forceRefresh="true" inverseSelectionOrder="true" nodeMappings="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='Condition']" iconPath="/StateChart.design/description/icons/obj16/condition16.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="stateChart::Node" referenceName="Children">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="type" valueExpression="CONDITION"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="BASIC" forceRefresh="true" containerMappings="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subContainerMappings[name='Basic']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="stateChart::Node" referenceName="Children">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="type" valueExpression="BASIC"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ToolGroup" name="Direct Edit Label Group">
+            <tools xsi:type="tool:DirectEditLabel" name="editName" forceRefresh="true">
+              <mask mask="{0}"/>
+              <initialOperation>
+                <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
+              </initialOperation>
+            </tools>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="History" forceRefresh="true" inverseSelectionOrder="true" nodeMappings="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='History']" iconPath="/StateChart.design/description/icons/obj16/history16.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="stateChart::Node" referenceName="Children">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="type" valueExpression="HISTORY"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Shallow History" forceRefresh="true" inverseSelectionOrder="true" nodeMappings="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@containerMappings[name='OR']/@subNodeMappings[name='Shallow_History']" iconPath="/StateChart.design/description/icons/obj16/shistory16.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="stateChart::Node" referenceName="Children">
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:instance">
+                    <subModelOperations xsi:type="tool_1:SetValue" featureName="type" valueExpression="SHISTORY"/>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Transition" forceRefresh="true" edgeMappings="//@ownedViewpoints[name='StateChartelements']/@ownedRepresentations[name='StateChart']/@defaultLayer/@edgeMappings[name='Transiton']" iconPath="/StateChart.design/description/icons/obj16/Edge.gif">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="stateChart::Transition" referenceName="child">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="source" valueExpression="var:source"/>
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="target" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="StateChart.design.Services"/>
+  </ownedViewpoints>
+  <userColorsPalettes>
+    <entries xsi:type="description:UserFixedColor" red="220" green="238" blue="239" name="very_light_blue"/>
+    <entries xsi:type="description:UserFixedColor" red="238" green="238" blue="238" name="very_light_gray"/>
+  </userColorsPalettes>
+</description:Group>
