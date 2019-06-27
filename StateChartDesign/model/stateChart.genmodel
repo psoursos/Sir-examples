@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/StateChartDesign/src-gen" creationIcons="false"
+    editDirectory="/StateChartDesign.edit/src-gen" editorDirectory="/StateChartDesign.editor/src-gen"
+    modelPluginID="StateChartDesign" modelName="StateChart" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    codeFormatting="true" importerID="org.eclipse.emf.importer.ecore" complianceLevel="10.0"
+    copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>stateChart.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="StateChart" basePackage="statechartdesign" disposableProviderFactory="true"
+      ecorePackage="stateChart.ecore#/">
+    <genClasses ecoreClass="stateChart.ecore#//Node">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute stateChart.ecore#//Node/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute stateChart.ecore#//Node/label"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute stateChart.ecore#//Node/type"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute stateChart.ecore#//Node/activity"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference stateChart.ecore#//Node/variables"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference stateChart.ecore#//Node/Children"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference stateChart.ecore#//Node/Father"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute stateChart.ecore#//Node/actions"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute stateChart.ecore#//Node/metadata"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference stateChart.ecore#//Node/child"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference stateChart.ecore#//Node/parent"/>
+    </genClasses>
+    <genClasses ecoreClass="stateChart.ecore#//Model">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute stateChart.ecore#//Model/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference stateChart.ecore#//Model/nodes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference stateChart.ecore#//Model/variables"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute stateChart.ecore#//Model/description"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute stateChart.ecore#//Model/metadata"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference stateChart.ecore#//Model/transitions"/>
+    </genClasses>
+    <genClasses ecoreClass="stateChart.ecore#//Variable">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute stateChart.ecore#//Variable/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute stateChart.ecore#//Variable/type"/>
+    </genClasses>
+    <genClasses ecoreClass="stateChart.ecore#//Transition">
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute stateChart.ecore#//Transition/TE"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute stateChart.ecore#//Transition/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference stateChart.ecore#//Transition/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference stateChart.ecore#//Transition/target"/>
+      <genFeatures createChild="false" propertyMultiLine="true" ecoreFeature="ecore:EAttribute stateChart.ecore#//Transition/metadata"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
